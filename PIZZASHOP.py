@@ -38,7 +38,7 @@ def cost_calculator(*pizzas, **kwargs):
     discount_amount = discount * total_cost_of_food
     final_cost = (total_cost_of_food + taxes) - discount_amount
     return(round(final_cost, 2))
-
+print("hi")
 # space
 
 #print(cost_calculator(drinks=['tub'], coupon = 0.1))
